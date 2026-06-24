@@ -1,7 +1,7 @@
 {
   "name": "tiny-string-tools",
   "version": "1.1.2",
-  "description": "A simple string utility library",
+  "description": "A lightweight, zero-dependency, highly optimized utility library for common string manipulations like slugify, truncate, capitalize, and text masking.",
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -21,10 +21,23 @@
     "test:watch": "vitest",
     "prepare": "npm run build"
   },
+  "repository": {
+  "type": "git",
+  "url": "git+https://github.com/prabhat1323/tiny-string-tools.git"
+  },
   "keywords": [
     "string",
+    "string-manipulation",
+    "slugify",
+    "truncate",
+    "capitalize",
+    "get-initials",
+    "mask-text",
+    "clean-spaces",
+    "validation",
+    "utility",
     "utils",
-    "learning"
+    "typescript"
   ],
   "author": "Prabhat Kumar",
   "license": "MIT",
