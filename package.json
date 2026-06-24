@@ -1,6 +1,6 @@
 {
   "name": "tiny-string-tools",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple string utility library",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -21,7 +21,11 @@
     "test:watch": "vitest",
     "prepare": "npm run build"
   },
-  "keywords": ["string", "utils", "learning"],
+  "keywords": [
+    "string",
+    "utils",
+    "learning"
+  ],
   "author": "Prabhat Kumar",
   "license": "MIT",
   "type": "module",
